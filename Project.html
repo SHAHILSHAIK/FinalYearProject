@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header
+        {
+            background-color: aqua;
+            height: 100px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            border: 3px solid black;
+        }
+        header h1
+        {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+        section
+        {
+            border-left: 3px solid black;
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+            border-top: 1px solid black;
+        }
+        .images img
+        {
+            width: 500px;
+            height: 400px;
+            border-radius: 1rem;
+        }
+        img:hover
+        {
+            box-shadow: 0px 0px 20px gray;
+        }
+        .images
+        {
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 500px 500px;
+            gap: 20px;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .videos video
+        {
+            width: 600px;
+            height: 550px;
+            border-radius: 1rem;
+            margin-bottom: 30px;
+            
+        }
+        .videos
+        {
+            display: grid;
+            grid-template-columns: 600px;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        dt
+        {
+            font-size :30px;
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        dd
+        {
+            font-size: 25px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            line-height: 40px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Final Year Project</h1>
+    </header>
+    <section>
+        <dl><br>
+            <dt>Iot Based Temperature and Humidity Controlled Agriculture Harvesting System : </dt><br><br>
+            <dd>This project presents an innovative solution for grain drying through the development of an Raspberry Pi Pico-controlled Temperature-Controlled Harvester. Traditional grain drying methods are often Labour - intensive and lack precision, leading to suboptimal results. The proposed system leverages Raspberry Pi Pico microcontroller technology to automate and optimize the drying process, ensuring efficient and consistent grain drying. The system incorporates temperature control mechanisms to regulate the drying environment, enhancing the quality of the harvested grains. Sensors monitor and maintain the desired temperature levels inside the harvester, preventing over-drying or under-drying of the grains. The Raspberry Pi Pico controller enables real-time adjustments, ensuring adaptability to varying environmental conditions. Key components of the system include temperature sensors, a fan system, and an Raspberry Pi Pico  Microcontroller, working in tandem to achieve precise temperature control. The user-friendly interface allows farmers to set specific drying parameters, providing a customized and automated solution. Additionally, the system is designed to be energy-efficient, minimizing resource consumption during the drying Process. The Raspberry Pi Pico-controlled & Temperature-Controlled Harvester offers a reliable, cost-effective, and sustainable solution for grain drying, catering to the evolving needs of modern agricultural practices. By optimizing the drying process, this innovation contributes to improved grain quality, reduced post-harvest losses, and increased overall efficiency in the agricultural sector.</dd>
+        </dl>
+       
+        <div class="images">
+        <img src="./IMG-20241027-WA0023.jpg" alt="">
+        <img src="./IMG-20241027-WA0024.jpg" alt="">
+        <img src="./IMG-20241027-WA0025.jpg" alt="">
+        <img src="./IMG-20241027-WA0026.jpg" alt="">
+        
+        </div>
+        <div class="videos"> 
+        <video  controls  loop="2"  muted><source src="./VID-20241027-WA0001.mp4"></video>
+        <video controls  loop="2"  muted><source src="./project video.mp4"></video>
+        </div>
+    </section>
+</body>
+</html>
